@@ -6,40 +6,29 @@ Reference: https://www.youtube.com/watch?v=Yr-8RmoNi70&t=97s
 
 ``` bash
 
-#(1) Add the 2 lines below into the file#
-sudo gedit /etc/apt/sources.list
-deb http://http.kali.org/kali kali-last-snapshot main contrib non-free
-deb http://http.kali.org/kali kali-experimental main contrib non-free
-
-#(2) This will update from current kernel to 6.8.11#
-sudo apt-get update && sudo apt upgrade
+#(1) Upgrading The Kali System - 6.8.11
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
 sudo apt install linux-headers-$(uname -r | sed 's,[^-]*-[^-]*-,,')
+sudo reboot now
 
-#(3) Install & unzip the zip folder in this repository in Desktop#
-cd /Desktop/8812au-20210629-main
-sudo apt-get install bc mokutil build-essential libelf-dev linux-headers-`uname -r`
+#(2) Installing Necessary Drivers 
+sudo apt update
+sudo apt install realtek-rtl88xxau-dkms
+sudo apt install dkms
 
-#(4) Install the driver
-sudo ./install-driver.sh
+git clone https://github.com/aircrack-ng/rtl8812au
+cd rtl8812au/
+sudo make
+sudo make install
+lsusb
+iwconfig
 
-#(5) Select the following choice to finish the installation#
-Do you want to edit the driver options file now? (recommended) [Y/n] n
-Do you want to apply the new options by rebooting now? (recommended) [Y/n] y
+!To test:
+sudo wifite
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Run this commands to setup the environment ---------------- Type B 
 Reference: https://www.youtube.com/watch?v=hEXwOkyYNL0
@@ -80,3 +69,12 @@ sudo make install
 iwconfig
 
 ```
+
+
+
+
+
+
+
+
+

@@ -2,8 +2,6 @@
 
 ### Run this commands to setup the environment 
 
-Download the repository and start the docker with the APs, the clients and nzyme for alerts. 
-
 ``` bash
 sudo gedit /etc/apt/sources.list
 

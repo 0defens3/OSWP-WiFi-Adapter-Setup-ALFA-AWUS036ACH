@@ -3,9 +3,9 @@
 ### Run this commands to setup the environment 
 
 ``` bash
-sudo gedit /etc/apt/sources.list
 
 #(1) Add the 2 lines below into the file#
+sudo gedit /etc/apt/sources.list
 deb http://http.kali.org/kali kali-last-snapshot main contrib non-free
 deb http://http.kali.org/kali kali-experimental main contrib non-free
 
@@ -22,5 +22,6 @@ sudo ./install-driver.sh
 
 #(5) Select the following choice to finish the installation#
 Do you want to edit the driver options file now? (recommended) [Y/n] n
-Do you want to apply the new options by rebooting now? (recommended) [Y/n] Y
+Do you want to apply the new options by rebooting now? (recommended) [Y/n] y
+
 ```

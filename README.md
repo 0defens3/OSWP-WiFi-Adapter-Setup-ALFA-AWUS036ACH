@@ -5,11 +5,22 @@
 ``` bash
 sudo gedit /etc/apt/sources.list
 
-#add the 2 lines below into the file#
+#(1) Add the 2 lines below into the file#
 deb http://http.kali.org/kali kali-last-snapshot main contrib non-free
 deb http://http.kali.org/kali kali-experimental main contrib non-free
 
-#This will update from current kernel to 6.8.11#
+#(2) This will update from current kernel to 6.8.11#
 sudo apt-get update && sudo apt upgrade
 sudo apt install linux-headers-$(uname -r | sed 's,[^-]*-[^-]*-,,')
+
+#(3) Install & unzip the zip folder in this repository in Desktop#
+cd /Desktop/8812au-20210629-main
+sudo apt-get install bc mokutil build-essential libelf-dev linux-headers-`uname -r`
+
+#(4) Install the driver
+sudo ./install-driver.sh
+
+#(5) Select the following choice to finish the installation#
+Do you want to edit the driver options file now? (recommended) [Y/n] n
+Do you want to apply the new options by rebooting now? (recommended) [Y/n] Y
 ```

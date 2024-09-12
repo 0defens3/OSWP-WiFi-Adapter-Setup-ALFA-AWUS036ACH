@@ -28,6 +28,19 @@ Do you want to apply the new options by rebooting now? (recommended) [Y/n] y
 
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Run this commands to setup the environment ---------------- Type B 
 Reference: https://www.youtube.com/watch?v=hEXwOkyYNL0
 

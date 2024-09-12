@@ -1,6 +1,8 @@
 # OSWA-ALFA-AWUS036ACH-DriverSetup
 
 ### Run this commands to setup the environment 
+Reference: https://www.youtube.com/watch?v=Yr-8RmoNi70&t=97s
+
 
 ``` bash
 

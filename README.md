@@ -4,7 +4,7 @@
 Reference: https://www.youtube.com/watch?v=hEXwOkyYNL0
 
 ### Environment:
-[a] Settings > USB > Checked 'Enable USB Controller' > Checked 'USB 3.0'
+[a] Settings > USB > Checked 'Enable USB Controller' > Checked 'USB 3.0'<br />
 [b] Once VM boots up, navigate Devices > USB > Select the Wifi Adapter to simulate attaching it 
 
 ``` bash

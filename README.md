@@ -34,6 +34,11 @@ Reference: https://www.youtube.com/watch?v=hEXwOkyYNL0
 
 ``` bash
 
+Environment:
+[a] Settings > USB > Checked 'Enable USB Controller' > Checked 'USB 2.0'
+[b] Once VM boots up, navigate Devices > USB > Select the Wifi Adapter to simulate attaching it 
+
+
 #(1) Add the 2 lines below into the file#
 sudo gedit /etc/apt/sources.list
 deb http://http.kali.org/kali kali-last-snapshot main contrib non-free

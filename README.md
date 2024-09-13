@@ -4,7 +4,7 @@
 Reference: https://www.youtube.com/watch?v=hEXwOkyYNL0
 
 ### Environment:
-[a] Running on VirtualBox <br />
+[a] Running on VirtualBox with Kali Linux OS <br />
 [b] Settings > USB > Checked 'Enable USB Controller' > Checked 'USB 3.0'<br />
 [c] Once VM boots up, navigate: Devices > USB > Select the Wifi Adapter to simulate attaching it <br />
 

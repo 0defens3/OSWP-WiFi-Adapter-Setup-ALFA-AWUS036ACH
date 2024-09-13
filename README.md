@@ -1,4 +1,4 @@
-# OSWA-ALFA-AWUS036ACH-DriverSetup
+# OSWA Wifi Adapter Setup (ALFA-AWUS036ACH)
 
 ### Commands To Be Executed In Sequence 
 Reference: https://www.youtube.com/watch?v=hEXwOkyYNL0

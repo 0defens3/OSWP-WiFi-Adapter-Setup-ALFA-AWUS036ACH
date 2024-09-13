@@ -41,7 +41,8 @@ iwconfig
 sudo wifite
 
 ```
-
+### Once Completed:
+Please remember to shut down the machine and create a snapshot to be able to revert changes anytime. 
 
 
 
